@@ -1,0 +1,70 @@
+[env]
+TERM = "xterm-256color"
+
+[shell]
+program               = "/usr/bin/zsh"
+
+[scrolling]
+history               = 65535
+
+[mouse]
+hide_when_typing      = true
+bindings = [
+  { mouse = "Middle", action = "PasteSelection" },
+]
+
+
+# #设置改变配置自动启动 [window]的需要重启
+# live_config_reload = true
+
+#改变窗口设置
+[window]
+#窗口大小
+dimensions = { columns = 135, lines = 30 }
+padding = { x = 4, y = 2 }
+dynamic_padding = true
+#透明度
+opacity = 1
+#窗口名字
+title = "Alacritty"
+
+#字体
+[font]
+normal = { family = "FiraCode Nerd Font", style = "Bold" }
+bold = { family = "FiraCode Nerd Font", style = "Bold" }
+italic = { family = "FiraCode Nerd Font", style = "Bold" }
+size = 9.0
+
+#颜色主题可以在github上找想要的主题，复制他的配色.
+[colors.primary]
+background = "#15141b"
+foreground = "#edecee"
+
+[colors.normal]
+black = '#110f18'
+red = '#ff6767'
+green = '#61ffca'
+yellow = '#ffca85'
+blue = '#a277ff'
+magenta = '#a277ff'
+cyan = '#61ffca'
+white = '#edecee'
+
+[colors.bright]
+black = '#4d4d4d'
+red = '#ff6767'
+green = '#61ffca'
+yellow = '#ffca85'
+blue = '#a277ff'
+magenta = '#a277ff'
+cyan = '#61ffca'
+white = '#edecee'
+
+#光标
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+
+[terminal]
+#设定复制黏贴行为 默认只能复制
+osc52 = "CopyPaste"
+
