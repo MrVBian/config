@@ -1,4 +1,13 @@
+https://github.com/MrVBian/ranger
+
+https://github.com/MrVBian/nvim
+
+https://www.bilibili.com/video/BV1rE411r7hD/
+
+![tmux_lazygit](./imgs/tmux_lazygit.png)
+
 ## alacritty
+
 ```shell
 sudo add-apt-repository ppa:aslatter/ppa
 sudo apt update
@@ -67,8 +76,8 @@ bash ./install.sh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-
 [FiraCode Nerd Font字体](https://github.com/ryanoasis/nerd-fonts)
+
 ```shell
 mv ./FiraCode /usr/share/fonts
 ```
