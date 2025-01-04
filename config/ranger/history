@@ -27,6 +27,6 @@ scout -ftsea 2zme
 open_with%spac
 deletey
 filter 
-delete
 scout -ftsea hit
 scout -ftsea .t
+delete

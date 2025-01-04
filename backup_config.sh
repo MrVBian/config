@@ -14,7 +14,7 @@ mkdir -p "$CONFIG_DIR/config"
 echo "创建目录 $CONFIG_DIR"
 
 # 需要拷贝的 .config 子目录
-CONFIG_FILES=("alacritty" "ranger" "tmux")
+CONFIG_FILES=("alacritty" "ranger" "tmux" "nvim")
 
 # 拷贝 .config 下的文件夹
 for config in "${CONFIG_FILES[@]}"; do
