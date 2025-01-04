@@ -1,0 +1,32 @@
+rename tmoveit.launch.py
+qq
+rename sim_moveit.world
+rename ros2_controllers.yaml
+rename COLCON_IGNORE
+
+open_with%spacea
+shell sdd
+open_with%spacer
+scout -ftsea f
+rename src
+shell 
+scout -ftsea 
+scout -ftsea ran
+scout -ftsea config
+rename robotiq_arg85_bk.urdf
+rename dual.launch.py
+rename gripper.csv
+rename joint_names_gripper2.yaml
+rename gripper2.urdf
+rename gripper2.csv
+rename left.urdf
+rename right.urdf
+open_with%space
+rename 2moveit.launch.py
+scout -ftsea 2zme
+open_with%spac
+deletey
+filter 
+delete
+scout -ftsea hit
+scout -ftsea .t
