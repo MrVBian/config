@@ -19,10 +19,10 @@ sudo apt install alacritty
 # https://github.com/neovim/neovim/releases/tag/stable
 tar xzvf nvim-linux64.tar.gz
 rm -rf nvim-linux64.tar.gz
-mv nvim-linux64 ~/.loca/bin/nvim
+mkdir -p ~/.config/bin/
+mv nvim-linux64 ~/.config/bin/nvim
 cd /usr/bin
-ln -s ~/nvim-linux64/bin/nvim nvim
-sudo ln -s ~/.local/bin/nvim/bin/nvim nvim
+ln -s ~/.config/bin/nvim/bin/nvim nvim
 ```
 
 ### lazyvim
