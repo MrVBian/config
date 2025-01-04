@@ -1,0 +1,4 @@
+result=( ${(Q)"${(z)$(<<\EO:result
+'rancher/best-practice-guide' 'docker/docker-bench-security' 'redis/redisinsight' 'javanile/fork.sh' 'bestitdocker/pipelines-build-container' 'bestwu/kubernetes-dashboard-amd64' 'besthappy/nginx' 'besthappy/phpfpm' 'bestlibre/armhf-mopidy' 'besthappy/nodejs-yarn' 'bestoray/pgyvpn' 'bestuser80/urlshort' 'bestwu/wechat' 'bestwu/xware' 'bestwu/ewomail' 'bestwu/thunderspeed' 'bestlibre/armhf-grafana' 'bestwu/qq' 'bestlibre/amd64-mopidy' 'bestmike007/qtunnel' 'bestlibre/armhf-influxdb' 'bestlibre/amd64-mopidy-cast' 'bestlibre/amd64-syncthing' 'bestriped/flakey-test' 'bestlibre/amd64-caddy-proxy'
+EO:result
+)}"} )
