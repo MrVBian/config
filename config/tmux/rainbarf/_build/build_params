@@ -1,0 +1,153 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {},
+       {
+         'PL_files' => undef,
+         '_added_to_INC' => [],
+         'allow_mb_mismatch' => 0,
+         'allow_pureperl' => 0,
+         'auto_configure_requires' => 1,
+         'autosplit' => undef,
+         'base_dir' => '/home/zme/.config/tmux/rainbarf',
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'blib' => 'blib',
+         'build_bat' => 0,
+         'build_class' => 'Module::Build',
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'build_requires' => {
+                               'English' => '1.00',
+                               'Test::More' => '0.45'
+                             },
+         'build_script' => 'Build',
+         'bundle_inc' => [],
+         'bundle_inc_preload' => [],
+         'c_source' => undef,
+         'config' => undef,
+         'config_dir' => '_build',
+         'configure_requires' => {
+                                   'Module::Build' => '0.28'
+                                 },
+         'conflicts' => {},
+         'cover' => undef,
+         'cpan_client' => 'cpan',
+         'create_license' => 1,
+         'create_makefile_pl' => undef,
+         'create_packlist' => 1,
+         'create_readme' => 1,
+         'debug' => undef,
+         'debugger' => undef,
+         'destdir' => undef,
+         'dist_abstract' => 'CPU/RAM/battery stats chart bar for tmux (and GNU screen)',
+         'dist_author' => undef,
+         'dist_name' => 'App-rainbarf',
+         'dist_suffix' => undef,
+         'dist_version' => '1.4',
+         'dist_version_from' => 'rainbarf',
+         'dynamic_config' => 0,
+         'extra_compiler_flags' => [],
+         'extra_linker_flags' => [],
+         'extra_manify_args' => undef,
+         'get_options' => {},
+         'has_config_data' => undef,
+         'html_css' => '',
+         'include_dirs' => [],
+         'install_base' => undef,
+         'install_base_relpaths' => {},
+         'install_path' => {},
+         'install_sets' => {},
+         'installdirs' => 'site',
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'license' => 'perl',
+         'magic_number' => undef,
+         'mb_version' => '0.4231',
+         'meta_add' => {
+                         'resources' => {
+                                          'bugtracker' => 'https://github.com/creaktive/rainbarf/issues',
+                                          'homepage' => 'https://github.com/creaktive/rainbarf',
+                                          'repository' => 'git://github.com/creaktive/rainbarf.git'
+                                        },
+                         'x_contributors' => [
+                                               'Chris Knadler <takeshi91k@gmail.com>',
+                                               'cinaeco',
+                                               'Clemens Hammacher <hammacher@cs.uni-saarland.de>',
+                                               'H.Merijn Brand <h.m.brand@xs4all.nl>',
+                                               'Henrik Hodne <henrik@hodne.io>',
+                                               'Joe Hassick <joe.hassick@gmail.com>',
+                                               'Josh Matthews <josh@jmatthews.us>',
+                                               'Lars Engels <lars.engels@0x20.net>',
+                                               'Sergey Romanov <complefor@rambler.ru>',
+                                               'Tom Cammann <tom.cammann@vmci.net>',
+                                               'Tuomas Jormola <tj@solitudo.net>'
+                                             ]
+                       },
+         'meta_merge' => {},
+         'metafile' => 'META.yml',
+         'metafile2' => 'META.json',
+         'module_name' => 'App::rainbarf',
+         'mymetafile' => 'MYMETA.yml',
+         'mymetafile2' => 'MYMETA.json',
+         'needs_compiler' => '',
+         'orig_dir' => '/home/zme/.config/tmux/rainbarf',
+         'original_prefix' => {},
+         'perl' => '/usr/bin/perl',
+         'pm_files' => undef,
+         'pod_files' => undef,
+         'pollute' => undef,
+         'prefix' => undef,
+         'prefix_relpaths' => {},
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'program_name' => undef,
+         'pureperl_only' => 0,
+         'quiet' => undef,
+         'recommends' => {},
+         'recurse_into' => [],
+         'recursive_test_files' => undef,
+         'release_status' => 'stable',
+         'requires' => {
+                         'Getopt::Long' => '2.32',
+                         'List::Util' => '1.07_00',
+                         'Pod::Usage' => '1.14',
+                         'Storable' => '2.04',
+                         'Term::ANSIColor' => '1.04',
+                         'perl' => '5.008'
+                       },
+         'script_files' => [
+                             'rainbarf'
+                           ],
+         'scripts' => undef,
+         'share_dir' => undef,
+         'sign' => 1,
+         'tap_harness_args' => {},
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'test_files' => undef,
+         'test_requires' => {},
+         'use_rcfile' => 1,
+         'use_tap_harness' => 0,
+         'verbose' => undef,
+         'xs_files' => undef
+       }
+     ];
+$x; }
